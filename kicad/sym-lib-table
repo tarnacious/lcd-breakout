@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name lcd_breakout)(type Legacy)(uri ${KIPRJMOD}/lcd_breakout.lib)(options "")(descr ""))
-  (lib (name lcd_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/lcd_breakout-rescue.lib)(options "")(descr ""))
+  (lib (name lcd_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/lcd_breakout-rescue.lib)(options "")(descr "")(disabled))
 )
