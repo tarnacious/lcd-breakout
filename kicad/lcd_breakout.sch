@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "LCD Breakout Board"
+Date "2020-05-10"
+Rev "v1.0"
+Comp "Tarn Barford"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -189,26 +189,6 @@ F 3 "" H 3200 3050 50  0001 C CNN
 	1    3200 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3200 2750 3200 2900
-$Comp
-L power:GND #PWR0106
-U 1 1 5EB551E0
-P 3400 3050
-F 0 "#PWR0106" H 3400 2800 50  0001 C CNN
-F 1 "GND" H 3405 2877 50  0000 C CNN
-F 2 "" H 3400 3050 50  0001 C CNN
-F 3 "" H 3400 3050 50  0001 C CNN
-	1    3400 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 2900 3400 2900
-Wire Wire Line
-	3400 2900 3400 3050
-Connection ~ 3200 2900
-Wire Wire Line
-	3200 2900 3200 3050
 $Comp
 L power:VDD #PWR0101
 U 1 1 5EB5712D
@@ -239,4 +219,6 @@ Wire Wire Line
 	2700 1750 2700 1700
 Wire Wire Line
 	2050 1750 2700 1750
+Wire Wire Line
+	3200 2750 3200 3050
 $EndSCHEMATC
